@@ -1,6 +1,6 @@
 Summary:	KDE network strigi plugins
 Name:		kdenetwork-strigi-analyzers
-Version:	4.12.1
+Version:	4.12.2
 Release:	1
 Epoch:		3
 License:	GPLv2+
@@ -37,6 +37,9 @@ This package provides:
 %makeinstall_std -C build
 
 %changelog
+* Tue Feb 04 2014 Andrey Bondrov <andrey.bondrov@rosalab.ru> 3:4.12.2-1
+- New version 4.12.2
+
 * Tue Jan 14 2014 Andrey Bondrov <andrey.bondrov@rosalab.ru> 3:4.12.1-1
 - New version 4.12.1
 
