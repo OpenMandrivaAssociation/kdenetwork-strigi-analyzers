@@ -1,7 +1,7 @@
 Summary:	KDE network strigi plugins
 Name:		kdenetwork-strigi-analyzers
-Version:	15.08.0
-Release:	2
+Version:	15.08.1
+Release:	1
 Epoch:		3
 License:	GPLv2+
 Group:		Graphical desktop/KDE
@@ -30,7 +30,7 @@ This package provides:
 %setup -q
 
 %build
-%cmake_kde4
+%cmake_kde4 -DCMAKE_MINIMUM_REQUIRED_VERSION=2.6
 %make
 
 %install
