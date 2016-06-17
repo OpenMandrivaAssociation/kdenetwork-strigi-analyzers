@@ -1,6 +1,6 @@
 Summary:	KDE network strigi plugins
 Name:		kdenetwork-strigi-analyzers
-Version:	16.04.1
+Version:	16.04.2
 Release:	1
 Epoch:		3
 License:	GPLv2+
